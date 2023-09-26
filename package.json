@@ -1,0 +1,28 @@
+{
+    "name": "taxi",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "pre-copy": "cd .. && npm run  copy.lib taxi",
+        "start": "node app.js"
+    },
+    "keywords": [],
+    "dependencies": {
+        "@bot-whatsapp/bot": "latest",
+        "@bot-whatsapp/cli": "latest",
+        "@bot-whatsapp/database": "latest",
+        "@bot-whatsapp/portal": "latest",
+        "@bot-whatsapp/provider": "^0.1.2",
+        "@wppconnect-team/wppconnect": "^1.27.3",
+        "@ffmpeg-installer/ffmpeg": "^1.1.0",
+        "@whiskeysockets/baileys": "github:WhiskeySockets/Baileys#store-crashfix",
+        "bot-ws-plugin-openai": "^1.0.5",
+        "dotenv": "^16.3.1",
+        "express": "^4.18.2",
+        "mime-types": "2.1.35",
+        "wa-sticker-formatter": "4.4.4"
+    },
+    "author": "",
+    "license": "ISC"
+}
