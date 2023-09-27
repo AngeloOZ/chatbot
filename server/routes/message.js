@@ -10,9 +10,11 @@ router.post('/send', async (req, res) => {
         const id = `${sanitizePhoneNumber(phone)}@s.whatsapp.net`;
 
 
-        await adapterProvider.sendText(id, message);
+        // await adapterProvider.sendText(id, message);
         // await adapterProvider.sendText(`${phone}@s.whatsapp.net`, 'Mensaje desde el bot');
-        // await adapterProvider.sendLocation(id, '-0.2605242', '-79.1694758');
+
+        // numero, latitud, longitud
+        await adapterProvider.sendLocation(id, '-0.2767118', '-79.1940512');
 
 
         // TODO: Revisar

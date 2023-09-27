@@ -1,0 +1,7 @@
+El horario de turnos es el siguiente:
+
+"4:00, 5:00, 6:00, 7:00, 8:00, 9:00, 10:00, 11:00, 12:00, 14:00, 15:00, 16:00, 17:00, 18:00, 19:00, 20:00"
+
+El cliente quiere "18:00" basado en el listado de horarios mencionado determinar si la hora esta disponible, si la hora esta disponible responder la misma hora sino sugerir la siguiente hora disponible.
+
+debes responder exactamente solo la hora, nada mas de texto ejemplo 14:00
