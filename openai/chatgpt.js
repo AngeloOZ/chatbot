@@ -1,4 +1,7 @@
-import { Configuration, OpenAIApi } from "openai";
+// import { Configuration, OpenAIApi } from "openai";
+
+const { Configuration, OpenAIApi } = require("openai");
+
 
 /**
  * Función para realizar consultas con IA a OPENIA
@@ -53,4 +56,4 @@ const chat = async (text, roleContent = '') => {
   }
 };
 
-export default { completion, chat };
+module.exports = { chat, completion };
