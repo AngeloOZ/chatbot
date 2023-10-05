@@ -33,7 +33,7 @@ const main = async () => {
     const httpServer = new Server(5678, adapterProvider, adapterDB)
     httpServer.start();
 
-    QRPortalWeb()
+    // QRPortalWeb()
 }
 
 main()
